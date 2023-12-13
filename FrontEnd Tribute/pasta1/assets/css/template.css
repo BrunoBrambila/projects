@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Lora', serif;
+}
+body {
+    background-color: #000000;
+    margin: 0;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 160px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.column {
+    flex-direction: column;
+  }
+
+.logo img {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+img {
+    border:0;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    font-family: var(--font-primary);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul, 
+nav li {
+    list-style: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+nav a {
+    border: none;   
+    padding: 15px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9D9E9F;
+}
+a {
+    background-color: transparent;
+}
+section.banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/steve-jobs.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding-top: 100px;
+    height: 500px;
+  }
+.banner_desc {
+    width: 400px;
+}
+div {
+    display: block;
+}
+.banner_headline {
+    font-family: var(--font-primary);
+}.container
+.banner_headline h1 {
+    font-size: 55px;
+    font-family: var(--font-primary);
+}
+.banner_headline span {
+    font-weight: bold;
+    color: #9D9E9F;
+}
+.banner_headline p {
+    line-height: 25px;
+}
+p {
+    display: block;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+.container_gallery {
+    width: 900px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.gallery_tittle {
+    font-family: var(--font-primary);
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    color: #9D9E9F;
+}
+.gallery_images{
+    display: flex;
+    height: 300px;
+}
+.gallery_images .img1, .gallery_images .img2, .gallery_images .img3 {
+    flex: 1;
+    padding: 20px;
+}
+.gallery_images img {
+    object-fit: cover;
+    border-radius: 10%;
+    border: 1px solid #9D9E9F;
+    box-shadow: 0px 0px 10px #fff;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.timeline_tittle {
+    font-size: 50px;
+    color:#9D9E9F;
+    font-family: var(--font-primary);
+    padding: 20px;
+    text-align: center;
+}
+.timeline_content {
+    display: flex;
+    margin-top: 20px;
+}
+.timeline_one {
+    border-right: 2px solid #9D9E9F;
+}
+.timeline_one, .timeline_two {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}   
+.jobs_timeline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:var(--font-primary);
+    background-color: #9D9E9F;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+  }
+.jobs_timeline .year {
+    background-color: #000000;
+    color: #9D9E9F;
+    text-align: center;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.timeline_content {
+    display: flex;
+    margin-top: 20px;
+  }
+.timeline_one,
+.timeline_two {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.timeline_one {
+    border-right: 2px solid #9D9E9F;
+  }
+  
+  .timeline_two {
+    align-items: flex-end;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  footer .social span {
+    font-size: 12px;
+  }
+  
+  footer .social img {
+    background-color: #9D9E9F;
+    width: 20px;
+    height: 20px;
+    padding:3px;
+    border-radius: 5px;
+    transition: all 0.4s;
+  }
+  
+  footer .social img:hover {
+    background-color: #fff;
+   
+  }
+  
+  
+   #link {
+    margin-top: 20px;
+    font-family: var(--font-primary);
+    font-size: 11px;
+    text-align: center;
+    color: #9D9E9F;
+  
+  }
+  
+  #link a {
+    color:#fff;
+    cursor: pointer;
+  
+  }
+  
+  #link a:hover {
+    text-decoration: underline;
+  
+  }
+  
+  @media (max-width: 650px) {
+    section.banner {
+      background-position: left center;
+      padding-top: 0px;
+  
+    }
+    .banner_headline {
+      margin-left: 15px;
+    }
+  
+    .banner_headline h1 {
+      font-size: 30px;
+  
+    }
+  
+    .banner_headline p {
+      width: 200px;
+      line-height: 21px;
+    }
+  
+    .gallery_title, .timeline_title {
+      font-size: 40px;
+  
+    }
+  
+    .gallery_images {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+    .gallery_images img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+  
+    .timeline_content {
+      flex-direction: column;
+    }
+  
+    section .container {
+      align-items: center;
+  
+    }
+  
+    .timeline_content {
+      gap: 20px
+  
+    }
+  
+    .timeline_one {
+      border: none;
+    }
+  }
+  
+  @media (min-width: 649px) and (max-width: 810px) {
+  
+    section.banner {
+      justify-content: space-between;
+    }
+    
+    .banner_headline {
+      width: 300px;
+      margin-left: 10px;
+    }
+  
+    .banner_headline h1 {
+      font-size: 35px;
+  
+    }
+  
+    .banner_headline p {
+      font-size: 15px;
+      width: 200px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width:530px) {
+    header {
+      height: auto;
+  
+    }
+    
+    header .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 12px;
+      
+    }
+  
+    nav ul {
+      flex-direction: row;
+      justify-content: flex-start;
+      width: 100%;
+    }
+  
+    nav a {
+      padding: 5px;
+  
+    }
+  
+    .banner_headline {
+      margin-left: 50px; 
+    }
+  
+    .gallery_images img {
+      width: 200px;
+      height: 200px;
+  
+    }
+  
+    .main {
+      margin-left: 20px;
+    }
+  }
